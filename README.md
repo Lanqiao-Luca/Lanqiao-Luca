@@ -78,4 +78,4 @@
   <a href="https://github.com/Lanqiao-Luca"><img width="495" alt="Luca 的 GitHub 贡献活动" src="https://streak-stats.demolab.com/?user=Lanqiao-Luca&amp;theme=github-dark-blue&amp;hide_border=true" /></a>
 </p>
 
-<p align="center"><a href="https://github.com/Lanqiao-Luca?tab=repositories">公开项目</a> · <a href="https://github.com/Lanqiao-Luca/ai-video-marker/issues">项目交流</a></p>
+<p align="center"><a href="https://github.com/Lanqiao-Luca?tab=repositories">公开项目</a> · <a href="https://github.com/Lanqiao-Luca/ai-java-workflow/issues">Java/Spring 项目交流</a> · <a href="https://github.com/Lanqiao-Luca/ai-video-marker/issues">视频项目交流</a></p>
