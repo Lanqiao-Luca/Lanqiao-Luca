@@ -26,6 +26,25 @@
 
 [查看架构、案例与使用说明 →](https://github.com/Lanqiao-Luca/ai-java-workflow)
 
+## 🎬 正在分享：ai-video-marker
+
+<a href="https://github.com/Lanqiao-Luca/ai-video-marker">
+  <img align="right" width="210" alt="屋顶晒太阳：像素动画示例" src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/docs/images/rooftop-preview.gif" />
+</a>
+
+### [AI 视频制作工作流](https://github.com/Lanqiao-Luca/ai-video-marker)
+
+将 **Workflow / Agent / Skill / Standards** 四层制作方法与本地工具整理成可复用的开源项目。
+
+- **6 条内容制作流程**：4 条正式、2 条候选，另有 2 条辅助流程。
+- **可运行的像素示例**：44 秒竖屏动画，附绘图代码、场景配置与原创配乐。
+- **先体验，再创作**：下载后先用仓库自带素材，无需先准备图片、音乐或 API Key。
+- **保留验证依据**：逐帧回归、完整音视频解码及独立下载重渲验证。
+
+[查看源码与使用说明 →](https://github.com/Lanqiao-Luca/ai-video-marker)
+
+<br clear="both" />
+
 ## 👋 关于我
 
 你好，我是 **Luca（澜桥）**，一名开发专家。
@@ -49,25 +68,6 @@
 **能力组织**：`Standards` · `Skills` · `Agents`
 
 先明确目标和边界，再做代表段或最小实现；通过实际执行、验证和反馈推进交付，并把有效方法留下来。
-
-## 🎬 正在分享：ai-video-marker
-
-<a href="https://github.com/Lanqiao-Luca/ai-video-marker">
-  <img align="right" width="210" alt="屋顶晒太阳：像素动画示例" src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/docs/images/rooftop-preview.gif" />
-</a>
-
-### [AI 视频制作工作流](https://github.com/Lanqiao-Luca/ai-video-marker)
-
-将 **Workflow / Agent / Skill / Standards** 四层制作方法与本地工具整理成可复用的开源项目。
-
-- **6 条内容制作流程**：4 条正式、2 条候选，另有 2 条辅助流程。
-- **可运行的像素示例**：44 秒竖屏动画，附绘图代码、场景配置与原创配乐。
-- **先体验，再创作**：下载后先用仓库自带素材，无需先准备图片、音乐或 API Key。
-- **保留验证依据**：逐帧回归、完整音视频解码及独立下载重渲验证。
-
-[查看源码与使用说明 →](https://github.com/Lanqiao-Luca/ai-video-marker)
-
-<br clear="both" />
 
 ## 📊 Stats & Activity
 
