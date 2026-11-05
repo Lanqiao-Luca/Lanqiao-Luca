@@ -4,7 +4,7 @@
 
 <h1 align="center">程序员澜桥 · Luca</h1>
 
-<p align="center"><b>开发专家 · AI 工作流实践者 · 开源工具创作者</b></p>
+<p align="center"><b>Java / Spring 开发者 · AI 辅助研发与视频创作工作流实践者</b></p>
 <p align="center">把工程经验变成可执行的流程，把实践成果沉淀成可复用的工具。</p>
 
 <p align="center">
