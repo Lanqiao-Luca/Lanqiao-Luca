@@ -13,6 +13,19 @@
   <a href="https://github.com/Lanqiao-Luca/ai-video-marker"><img alt="ai-video-marker stars" src="https://img.shields.io/github/stars/Lanqiao-Luca/ai-video-marker?style=for-the-badge&amp;label=AI%20VIDEO%20MARKER&amp;labelColor=0B1220&amp;color=F59E0B" /></a>
 </p>
 
+## ☕ 正在分享：ai-java-workflow
+
+### [面向 Java / Spring 业务开发的 AI 研发工作流](https://github.com/Lanqiao-Luca/ai-java-workflow)
+
+把需求、实现、验证、审查和交付串成一条可复核的研发链，让 AI 协作有明确的职责、方法和验收依据。
+
+- **从原子方法到完整流程**：Standards → Skill → Agent → Workflow → Graph，按任务组合采用，Loops 提供有限重复与停止策略。
+- **覆盖 Java / Spring 研发**：需求澄清、最小实现、行为保留、测试验证、同候选审查与交付接续。
+- **支持并发执行参考**：按实例分配 worktree 与 sandbox，提供 Maven / Gradle 构建及可选 Docker 后端。
+- **用案例核对实际能力**：独立虚构的 Spring Boot 案例、原生 Agent 调度参考和验证记录，明确运行前提与未验范围。
+
+[查看架构、案例与使用说明 →](https://github.com/Lanqiao-Luca/ai-java-workflow)
+
 ## 👋 关于我
 
 你好，我是 **Luca（澜桥）**，一名开发专家。
@@ -36,19 +49,6 @@
 **能力组织**：`Standards` · `Skills` · `Agents`
 
 先明确目标和边界，再做代表段或最小实现；通过实际执行、验证和反馈推进交付，并把有效方法留下来。
-
-## ☕ 正在分享：ai-java-workflow
-
-### [面向 Java / Spring 业务开发的 AI 研发工作流](https://github.com/Lanqiao-Luca/ai-java-workflow)
-
-把需求、实现、验证、审查和交付串成一条可复核的研发链，让 AI 协作有明确的职责、方法和验收依据。
-
-- **从原子方法到完整流程**：Standards → Skill → Agent → Workflow → Graph，按任务组合采用，Loops 提供有限重复与停止策略。
-- **覆盖 Java / Spring 研发**：需求澄清、最小实现、行为保留、测试验证、同候选审查与交付接续。
-- **支持并发执行参考**：按实例分配 worktree 与 sandbox，提供 Maven / Gradle 构建及可选 Docker 后端。
-- **用案例核对实际能力**：独立虚构的 Spring Boot 案例、原生 Agent 调度参考和验证记录，明确运行前提与未验范围。
-
-[查看架构、案例与使用说明 →](https://github.com/Lanqiao-Luca/ai-java-workflow)
 
 ## 🎬 正在分享：ai-video-marker
 
