@@ -26,6 +26,8 @@
 
 [查看架构、案例与使用说明 →](https://github.com/Lanqiao-Luca/ai-java-workflow)
 
+[查看 Spring Boot 书签标签案例：需求、实现与测试 →](https://github.com/Lanqiao-Luca/ai-java-workflow/tree/main/examples/workflow-bookmark-tags)
+
 ## 🎬 正在分享：ai-video-marker
 
 <a href="https://github.com/Lanqiao-Luca/ai-video-marker">
