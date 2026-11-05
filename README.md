@@ -29,7 +29,7 @@
 ## 🎬 正在分享：ai-video-marker
 
 <a href="https://github.com/Lanqiao-Luca/ai-video-marker">
-  <img align="right" width="210" alt="屋顶晒太阳：像素动画示例" src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/docs/images/rooftop-preview.gif" />
+  <img align="right" width="210" alt="屋顶晒太阳：像素动画示例" src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/assets/images/pixel-rooftop/rooftop-preview.gif" />
 </a>
 
 ### [AI 视频制作工作流](https://github.com/Lanqiao-Luca/ai-video-marker)
