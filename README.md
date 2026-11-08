@@ -71,6 +71,10 @@
 
 先明确目标和边界，再做代表段或最小实现；通过实际执行、验证和反馈推进交付，并把有效方法留下来。
 
+## 开源贡献
+
+**LangGraph4j contributor** · 修复并行分支生成器的终止结果丢失问题，并补充回归测试。[PR #517 已合并](https://github.com/langgraph4j/langgraph4j/pull/517)
+
 ## 📊 Stats & Activity
 
 <p align="center">
