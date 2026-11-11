@@ -1,87 +1,44 @@
-<p align="center">
-  <img src="assets/luca-avatar.jpg" width="128" alt="Luca 的原创开发者插画头像" />
-</p>
+# 程序员澜桥 · Luca
 
-<h1 align="center">程序员澜桥 · Luca</h1>
+**Java 研发与 AI 工程实践。** 我做交易、订单等复杂业务系统，也用 AI 辅助拆需求、写代码、跑测试和审查改动，让团队能核对交付结果、接手续做。
 
-<p align="center"><b>Java / Spring 开发者 · AI 辅助研发与视频创作工作流实践者</b></p>
-<p align="center">把工程经验变成可执行的流程，把实践成果沉淀成可复用的工具。</p>
+## 代表成果
 
-<p align="center">
-  <a href="https://github.com/Lanqiao-Luca?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Lanqiao-Luca?style=for-the-badge&amp;label=FOLLOWERS&amp;labelColor=0B1220&amp;color=2DD4BF" /></a>
-  <a href="https://github.com/Lanqiao-Luca/ai-java-workflow"><img alt="ai-java-workflow stars" src="https://img.shields.io/github/stars/Lanqiao-Luca/ai-java-workflow?style=for-the-badge&amp;label=AI%20JAVA%20WORKFLOW&amp;labelColor=0B1220&amp;color=2DD4BF" /></a>
-  <a href="https://github.com/Lanqiao-Luca/ai-video-marker"><img alt="ai-video-marker stars" src="https://img.shields.io/github/stars/Lanqiao-Luca/ai-video-marker?style=for-the-badge&amp;label=AI%20VIDEO%20MARKER&amp;labelColor=0B1220&amp;color=F59E0B" /></a>
-</p>
+- **Java 研发案例** · 给阅读清单增加批量归档功能。一条数据无效时，整批都不写入。案例记录显示，修正后的实现通过全部 14 项测试。[看完整案例](https://github.com/Lanqiao-Luca/ai-java-workflow/tree/main/examples/design-to-spring)
+- **开源贡献** · 我向第三方项目 LangGraph4j 提交修复，解决并行分支完成后最终结果可能丢失的问题，并补上回归测试。[查看已合并的 PR #517](https://github.com/langgraph4j/langgraph4j/pull/517)
+- **视频作品** · 《雨夜最后一班电车》，约 30 秒的 AI 漫画短片。[查看成片](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/reference-comic/preview.mp4)
 
-## ☕ 正在分享：ai-java-workflow
+## 主要项目
 
-### [面向 Java / Spring 业务开发的 AI 研发工作流](https://github.com/Lanqiao-Luca/ai-java-workflow)
+### Java / Spring Boot 研发 · ai-java-workflow
 
-把需求、实现、验证、审查和交付串成一条可复核的研发链，让 AI 协作有明确的职责、方法和验收依据。
+把业务要求写成可检查的验收条件，交付时留下代码、测试和审查记录，方便团队复核与交接。
 
-- **从原子方法到完整流程**：Standards → Skill → Agent → Workflow → Graph，按任务组合采用，Loops 提供有限重复与停止策略。
-- **覆盖 Java / Spring 研发**：需求澄清、最小实现、行为保留、测试验证、同候选审查与交付接续。
-- **支持并发执行参考**：按实例分配 worktree 与 sandbox，提供 Maven / Gradle 构建及可选 Docker 后端。
-- **用案例核对实际能力**：独立虚构的 Spring Boot 案例、原生 Agent 调度参考和验证记录，明确运行前提与未验范围。
+| 批量归档案例 | 交付与验证 |
+| --- | --- |
+| **任务要求** | 批量归档时遇到无效条目，整个请求失败，原有数据保持原样。 |
+| **完成内容** | 实现 Spring Boot 接口，先检查全部条目与版本，再提交变更。 |
+| **验收结果** | 已有记录中，故意保留部分写入问题的对照实现触发 3 项预期失败，修正后的实现通过全部 14 项测试。测试覆盖无效条目、旧版本并发提交等场景，分离验证上下文复跑结果一致。 |
+| **适用范围** | 虚构业务、单进程内存数据，使用模拟身份。测试范围为本地接口与服务行为。 |
 
-[查看架构、案例与使用说明 →](https://github.com/Lanqiao-Luca/ai-java-workflow)
+[看完整案例](https://github.com/Lanqiao-Luca/ai-java-workflow/tree/main/examples/design-to-spring) · [查看运行回执](https://github.com/Lanqiao-Luca/ai-java-workflow/blob/main/examples/design-to-spring/result.json) · [查看独立复跑记录](https://github.com/Lanqiao-Luca/ai-java-workflow/blob/main/examples/design-to-spring/independent-result.json)
 
-[查看 Spring Boot 书签标签案例：需求、实现与测试 →](https://github.com/Lanqiao-Luca/ai-java-workflow/tree/main/examples/workflow-bookmark-tags)
+### 视频创作 · ai-video-marker
 
-## 🎬 正在分享：ai-video-marker
+把分镜、素材、剪辑和导出过程留给后续创作复用。仓库提供已完成的漫画短片和可本地重渲的像素动画示例。
 
-<a href="https://github.com/Lanqiao-Luca/ai-video-marker">
-  <img align="right" width="210" alt="屋顶晒太阳：像素动画示例" src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/assets/images/pixel-rooftop/rooftop-preview.gif" />
-</a>
+<a href="https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/reference-comic/preview.mp4"><img src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/assets/images/reference-comic/poster.jpg" width="200" alt="《雨夜最后一班电车》封面，点击查看成片"></a>
 
-### [AI 视频制作工作流](https://github.com/Lanqiao-Luca/ai-video-marker)
+[漫画短片制作说明](https://github.com/Lanqiao-Luca/ai-video-marker/tree/main/examples/reference-comic) · [看 44 秒像素动画《屋顶晒太阳》](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/pixel-rooftop/preview.mp4)
 
-将 **Workflow / Agent / Skill / Standards** 四层制作方法与本地工具整理成可复用的开源项目。
+## 工程经验
 
-- **6 条内容制作流程**：4 条正式、2 条候选，另有 2 条辅助流程。
-- **可运行的像素示例**：44 秒竖屏动画，附绘图代码、场景配置与原创配乐。
-- **先体验，再创作**：下载后先用仓库自带素材，无需先准备图片、音乐或 API Key。
-- **保留验证依据**：逐帧回归、完整音视频解码及独立下载重渲验证。
+- **复杂业务** · 梳理交易、订单和售后流程，明确状态流转、异常分支和变更边界。
+- **性能与稳定性** · 关注可观测性、性能瓶颈定位和线上问题排查。
+- **AI 辅助研发** · 用 Claude、Codex 辅助整理需求、实现改动和检查遗漏，交付时保留验证记录。
 
-[查看源码与使用说明 →](https://github.com/Lanqiao-Luca/ai-video-marker)
+## 深入了解
 
-<br clear="both" />
+[Java 项目使用说明与架构](https://github.com/Lanqiao-Luca/ai-java-workflow#框架架构) · [视频项目与运行方法](https://github.com/Lanqiao-Luca/ai-video-marker) · [GitHub 项目交流](https://github.com/Lanqiao-Luca/ai-java-workflow/issues)
 
-## 👋 关于我
-
-你好，我是 **Luca（澜桥）**，一名开发专家。
-
-我的工程实践聚焦交易与订单等复杂业务系统，关注业务建模、性能优化、稳定性保障与问题排查。也在持续把工程经验用于 **AI 辅助开发、知识库治理与 AI 视频创作**，将实际做法整理为可以复用、修改和接续的工具与流程。
-
-## 🛠 我擅长什么
-
-| 方向 | 实践重点 |
-| :--- | :--- |
-| **复杂业务与系统设计** | 交易、订单、售后与状态流转；梳理边界，拆解复杂流程 |
-| **性能与稳定性** | 性能瓶颈定位、可观测性、异常排查与风险控制 |
-| **AI 工程协作** | 熟练使用 Claude、Codex，将经验组织成 Skills、Agents 和 Workflows |
-| **知识与方法沉淀** | 文档、标准、模板、知识库与可复用工具，支持后续协作和交接 |
-| **AI 视频工作流** | 故事与镜头拆解、像素动画、素材复用、本地渲染和结果检查 |
-
-### 日常使用
-
-**AI 开发工具**：`Claude` · `Codex`<br />
-**协作方式**：`Workflow` · `Graph` · `Loop`<br />
-**能力组织**：`Standards` · `Skills` · `Agents`
-
-先明确目标和边界，再做代表段或最小实现；通过实际执行、验证和反馈推进交付，并把有效方法留下来。
-
-## 开源贡献
-
-**LangGraph4j contributor** · 修复并行分支生成器的终止结果丢失问题，并补充回归测试。[PR #517 已合并](https://github.com/langgraph4j/langgraph4j/pull/517)
-
-## 📊 Stats & Activity
-
-<p align="center">
-  <a href="https://github.com/Lanqiao-Luca?tab=repositories"><img width="450" alt="Luca 的公开 GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=Lanqiao-Luca&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;bg_color=0B1220&amp;title_color=2DD4BF&amp;text_color=CBD5E1&amp;icon_color=F59E0B" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/Lanqiao-Luca"><img width="495" alt="Luca 的 GitHub 贡献活动" src="https://streak-stats.demolab.com/?user=Lanqiao-Luca&amp;theme=github-dark-blue&amp;hide_border=true" /></a>
-</p>
-
-<p align="center"><a href="https://github.com/Lanqiao-Luca?tab=repositories">公开项目</a> · <a href="https://github.com/Lanqiao-Luca/ai-java-workflow/issues">Java/Spring 项目交流</a> · <a href="https://github.com/Lanqiao-Luca/ai-video-marker/issues">视频项目交流</a></p>
+如果你想试一个小范围的研发任务，可以带一个验收条件明确的需求，在项目 Issues 里交流怎样验证交付结果。
