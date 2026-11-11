@@ -6,7 +6,7 @@
 
 - **AI 协作研发案例** · 为一个虚构的 Spring Boot 标签接口，我用 AI 澄清需求、编写代码和测试，再分开验证、并行审查，最后汇总交付。案例公开了代码、测试和交付报告，记录显示最终通过 25 项离线 Spring 测试。[看完整协作案例](https://github.com/Lanqiao-Luca/ai-java-workflow/tree/main/examples/native-spring-workflow) · [查看运行结果](https://github.com/Lanqiao-Luca/ai-java-workflow/blob/main/examples/native-spring-workflow/result.md)
 - **开源贡献** · 我向第三方项目 LangGraph4j 提交修复，解决并行分支完成后最终结果可能丢失的问题，并补上回归测试。[查看已合并的 PR #517](https://github.com/langgraph4j/langgraph4j/pull/517)
-- **视频作品** · 《雨夜最后一班电车》，约 30 秒的 AI 漫画短片。[查看成片](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/reference-comic/preview.mp4)
+- **视频作品** · 《雨夜最后一班电车》，约 30 秒的 AI 漫画短片。[下载成片](https://github.com/Lanqiao-Luca/ai-video-marker/raw/refs/heads/main/assets/videos/reference-comic/preview.mp4)
 
 ## 主要项目
 
@@ -27,9 +27,9 @@
 
 把分镜、素材、剪辑和导出过程留给后续创作复用。仓库提供已完成的漫画短片和可本地重渲的像素动画示例。
 
-<a href="https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/reference-comic/preview.mp4"><img src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/assets/images/reference-comic/poster.jpg" width="320" alt="《雨夜最后一班电车》封面，点击查看成片"></a>
+<a href="https://github.com/Lanqiao-Luca/ai-video-marker/raw/refs/heads/main/assets/videos/reference-comic/preview.mp4"><img src="https://raw.githubusercontent.com/Lanqiao-Luca/ai-video-marker/main/assets/images/reference-comic/poster.jpg" width="320" alt="《雨夜最后一班电车》封面，点击下载成片"></a>
 
-[▶ 点击观看约 30 秒成片](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/reference-comic/preview.mp4) · [漫画短片制作说明](https://github.com/Lanqiao-Luca/ai-video-marker/tree/main/examples/reference-comic) · [看 44 秒像素动画《屋顶晒太阳》](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/pixel-rooftop/preview.mp4)
+[下载成片（约 30 秒，MP4）](https://github.com/Lanqiao-Luca/ai-video-marker/raw/refs/heads/main/assets/videos/reference-comic/preview.mp4) · [漫画短片制作说明](https://github.com/Lanqiao-Luca/ai-video-marker/tree/main/examples/reference-comic) · [看 44 秒像素动画《屋顶晒太阳》](https://github.com/Lanqiao-Luca/ai-video-marker/blob/main/assets/videos/pixel-rooftop/preview.mp4)
 
 ## 工程经验
 
